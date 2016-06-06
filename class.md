@@ -128,9 +128,10 @@
 + abstract
 + synchronized
 
-方法访问限制：
+方法访问限制:
+
 |案例		|public	| protected	|  friendly	|  private	|
-| ---		|---	| ---    	|-----|  ---- 	| 
+| ---		| ---	| ---    	| -----		|  ---- 	| 
 |同类		|	Y	|	Y	  	|	Y 		|	Y  		
 |同包子类	|	Y	|	Y		|	Y		|	N		
 |同包非子类	|	Y	|	Y		|	Y		|	N		
